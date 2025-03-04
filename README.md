@@ -93,7 +93,7 @@ yarn seed
 yarn start
 ```
 
-The client will run on http://localhost:3000 and the server on http://localhost:5000.
+By default, the client will run on http://localhost:3000 and the server on http://localhost:5000.
 
 ## Testing
 
