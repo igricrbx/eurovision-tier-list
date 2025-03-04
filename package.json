@@ -1,0 +1,12 @@
+{
+  "name": "eurovision-tier-list",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn workspace client build && yarn workspace server build",
+    "seed": "yarn workspace server seed"
+  }
+}
