@@ -68,7 +68,7 @@ GRANT ALL PRIVILEGES ON DATABASE eurovision_tier_list TO eurovision;
 ### 2. Clone and Install Dependencies
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/igricrbx/eurovision-tier-list
 cd eurovision-tier-list
 yarn install
 ```
