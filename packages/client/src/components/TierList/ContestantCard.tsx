@@ -12,7 +12,6 @@ import {
   Button, 
   Stack, 
   Avatar, 
-  Link
 } from '@mui/material';
 import { TierEntry } from '../../types';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
@@ -397,7 +396,14 @@ const ContestantCard: React.FC<ContestantCardProps> = ({
                         scrollbarWidth: 'none'
                       }}
                     >
-                      <Typography variant="body2" whiteSpace="pre-line" sx={{ lineHeight: 1.6 }}>
+                      <Typography 
+                        variant="body2" 
+                        whiteSpace="pre-line" 
+                        sx={{ 
+                          lineHeight: 1.6,
+                          textAlign: 'center'
+                        }}
+                      >
                         {contestant.lyrics}
                       </Typography>
                     </Box>
